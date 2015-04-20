@@ -1,0 +1,68 @@
+JAVA_HOME=/usr/local/jdk
+CLASSPATH=.:$JAVA_HOME/lib/tools.jar:$JAVA_HOEM/lib/dt.jar
+PATH=$JAVA_HOME/bin:$PATH:/usr/local/mysql/bin:$PATH
+export JAVA_HOME CLASSPATH PATH
+
+#tomcat8
+CATALINA_BASE=/usr/local/apache-tomcat-8.0.21  
+CATALINA_HOME=/usr/local/apache-tomcat-8.0.21
+export CATALINA_BASE CATALINA_HOME
+
+#xtgamespay-8089
+CATALINA_2_BASE=/usr/local/xtgamespay-8089
+CATALINA_2_HOME=/usr/local/xtgamespay-8089
+export CATALINA_2_BASE CATALINA_2_HOME 
+
+#xtgamespay-8090
+CATALINA_3_BASE=/usr/local/xtgamespay-8090
+CATALINA_3_HOME=/usr/local/xtgamespay-8090
+export CATALINA_3_BASE CATALINA_3_HOME
+
+TOMCAT_HOME=/usr/local/apache-tomcat-8.0.21  
+export TOMCAT_HOME
+
+TOMCAT_2_HOME=/usr/local/xtgamespay-8089
+export TOMCAT_2_HOME
+
+TOMCAT_3_HOME=/usr/local/xtgamespay-8090
+export TOMCAT_3_HOME
+
+#producer,consumer
+#producer-8081
+CATALINA_4_BASE=/usr/local/xtgamespay-producer-8081
+CATALINA_4_HOME=/usr/local/xtgamespay-producer-8081
+export CATALINA_4_BASE CATALINA_4_HOME
+
+TOMCAT_4_HOME=/usr/local/xtgamespay-producer-8081
+export TOMCAT_4_HOME
+
+#producer-8082
+CATALINA_5_BASE=/usr/local/xtgamespay-producer-8082
+CATALINA_5_HOME=/usr/local/xtgamespay-producer-8082
+export CATALINA_5_BASE CATALINA_5_HOME
+
+TOMCAT_5_HOME=/usr/local/xtgamespay-producer-8082
+export TOMCAT_5_HOME
+
+#consumer-8083
+CATALINA_6_BASE=/usr/local/xtgamespay-consumer-8083
+CATALINA_6_HOME=/usr/local/xtgamespay-consumer-8083
+export CATALINA_6_BASE CATALINA_6_HOME
+
+TOMCAT_6_HOME=/usr/local/xtgamespay-consumer-8083
+export TOMCAT_6_HOME
+
+#consumer-8084
+CATALINA_7_BASE=/usr/local/xtgamespay-consumer-8084
+CATALINA_7_HOME=/usr/local/xtgamespay-consumer-8084
+export CATALINA_7_BASE CATALINA_7_HOME
+
+TOMCAT_7_HOME=/usr/local/xtgamespay-consumer-8084
+export TOMCAT_7_HOME
+
+
+
+#erlang make by captain
+ERL_HOME=/usr/local/erlang  
+PATH=$ERL_HOME/bin:$PATH  
+export ERL_HOME PATH
